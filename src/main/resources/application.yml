@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-batch-impl
+  datasource:
+    generate-unique-name: false
+    name: file-upload
+  h2:
+    console:
+      enabled: true
+  batch:
+    jdbc:
+      initialize-schema: ALWAYS
+    job:
+      enabled: false
